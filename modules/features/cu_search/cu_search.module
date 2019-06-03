@@ -86,7 +86,7 @@ function cu_search_block_view($delta = '') {
 
       $block['subject'] = '';
 
-      $block['content'] = 'Search';
+      $block['content'] = 'search form goes here';
       $search_configs = cu_search_configs();
       $block['options'] = $search_configs['options'];
       $block['configs'] = $search_configs['configs'];
@@ -104,7 +104,7 @@ function cu_search_block_view($delta = '') {
 
       $block['subject'] = '';
 
-      $block['content'] = 'Search';
+      $block['content'] = 'search form goes here';
       $search_configs = cu_search_configs();
       $block['options'] = $search_configs['options'];
       $block['configs'] = $search_configs['configs'];
@@ -154,15 +154,15 @@ function cu_search_configs() {
     'action' => base_path() . 'search',
   );
   // @TODO: Improve this
-  $rootsite = 'https://www.colorado.edu/search';
-  if ( $_SERVER['SERVER_NAME'] == 'www-test.colorado.edu') {
-    $rootsite = 'https://www-test.colorado.edu/search';
+  $rootsite = 'https://clas.ucdenver.edu/university-search/';
+  if ( $_SERVER['SERVER_NAME'] == 'clas-test.ucdenver.pvt') {
+    $rootsite = 'https://clas.ucdenver.edu/university-search/';
   }
 
   $configs['all'] = array(
-    'value' => 'Colorado.edu',
-    'placeholder' => 'Search Colorado.edu',
-    'label' => 'Colorado.edu',
+    'value' => 'Ucdenver.edu',
+    'placeholder' => 'Search Ucdenver.edu',
+    'label' => 'Ucdenver.edu',
     'action' => $rootsite,
   );
 
