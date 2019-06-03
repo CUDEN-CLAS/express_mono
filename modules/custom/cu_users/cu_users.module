@@ -17,33 +17,25 @@
 function cu_users_get_users($type = 'all') {
 
   $user_array['developer'] = array(
-    'crafts' => 'Kevin.Crafts@Colorado.EDU',
-    'sniderc' => 'Catherine.Snider@Colorado.EDU',
-    'kere7580' => 'Kevin.Reynen@Coloardo.EDU',
-    'jafu6031' => 'James.W.Fuller@Colorado.EDU',
-    'alfi2595' => 'alexander.finnarn@colorado.edu',
-    'jeor0980' => 'Jesus.OrtizTovar@colorado.edu',
-    'osr-test-sis' => 'osr-test-sis@colorado.edu',
+    'stalkert' => 'Tim.Stalker@ucdenver.edu',
+    'hendmark' => 'Mark.Hendricks@ucdenver.edu',
   );
 
   $user_array['administrator'] = array(
-    'brokaw' => 'Annie.Brokaw@Colorado.EDU',
-    'leslie' => 'jon.leslie@Colorado.EDU',
-    'linebarg' => 'joanna.bertrand@Colorado.EDU',
-    'wetu1300' => 'wendy.turnbull@Colorado.EDU',
-    'mortone' => 'Emily.Kellagher@Colorado.EDU',
+    'osr-test-admin' => 'osr-test-admin@ucdenver.edu',
   );
 
   $user_array['site_owner'] = array(
-    'osr-test-owner' => 'osr-test-owner@colorado.edu',
+    'osr-test-owner' => 'osr-test-owner@ucdenver.edu',
+    'kohmt' => 'Tracy.Kohm@ucdenver.edu',
   );
 
   $user_array['content_editor'] = array(
-    'osr-test-content' => 'osr-test-content@colorado.edu',
+    'osr-test-content' => 'osr-test-content@ucdenver.edu',
   );
 
   $user_array['edit_my_content'] = array(
-    'osr-test-edit-own' => 'osr-test-edit-own@colorado.edu',
+    'osr-test-edit-own' => 'osr-test-edit-own@ucdenver.edu',
   );
 
   $user_array['site_editor'] = array(
@@ -104,11 +96,11 @@ function cu_users_check_user($username) {
 function cu_users_help($path, $arg) {
   switch ($path) {
     case 'admin/people/invite':
-      return '<p>Any CU Boulder employee, student or sponsored vendor with an IdentiKey can be granted access to the website administration area. To add a site user:</p>
+      return '<p>Any CU Denver employee, student or sponsored vendor with a university ID can be granted access to the website administration area. To add a site user:</p>
 <ol class="numbered-list">
   <li>Select a Core Role.</li>
   <li>Consider an optional add-on role for elevated permissions (can be added later via modify site user access).</li>
-  <li>Add the individual user’s email address (i.e., jane.smith@colorado.edu or janesmith@gmail.com). We recommend avoiding the use of group or department accounts. </li>
+  <li>Add the individual user’s email address (i.e., jane.smith@ucdenver.edu or janesmith@gmail.com). We recommend avoiding the use of group or department accounts. </li>
   <li>Provide a custom message to the person (optional).</li>
   <li>Click Send Invites at the bottom of the page.</li>
   </ol>';
@@ -422,8 +414,8 @@ function cu_users_ldap_email_lookup($email) {
   // @TODO: replace hardcoded values with configuration from LDAP settings
 
   // Load the user's entry in LDAP.
-  $link_identifier = ldap_connect('directory.colorado.edu');
-  $base_dn = "dc=colorado,dc=edu";
+  $link_identifier = ldap_connect('artemis.ucdenver.pvt');
+  $base_dn = "dc=ucdenver,dc=pvt";
   $filter = "mail=" . $email;
   $result_identifier = ldap_search($link_identifier, $base_dn, $filter);
   $ldap_entries = ldap_get_entries($link_identifier, $result_identifier);
