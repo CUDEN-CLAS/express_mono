@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * User-facing page callbacks for the LDAP Authentication module.
@@ -7,27 +6,27 @@
 
 /**
  * Form constructor for updating the profile.
- *
- * @see ldap_authentication_profile_update_form_validate()
- * @see ldap_authentication_profile_update_form_submit()
+ * 
+ * @see ldap_authentication_profile_update_form_validate().
+ * @see ldap_authentication_profile_update_form_submit().
  */
 function ldap_authentication_profile_update_form($form, &$form_state) {
-  $form['mail'] = [
+  $form['mail'] = array(
     '#type' => 'textfield',
     '#required' => TRUE,
     '#title' => t('Email Address'),
-  ];
-  $form['submit'] = [
+  );
+  $form['submit'] = array(
     '#type' => 'submit',
     '#value' => t('Update Profile'),
-  ];
+  );
   return $form;
 }
 
 /**
  * Form validator for updating the profile.
- *
- * @see ldap_authentication_profile_update_form()
+ * 
+ * @see ldap_authentication_profile_update_form().
  */
 function ldap_authentication_profile_update_form_validate($form, &$form_state) {
   if (!filter_var($form_state['values']['mail'], FILTER_VALIDATE_EMAIL)) {
@@ -46,15 +45,15 @@ function ldap_authentication_profile_update_form_validate($form, &$form_state) {
 
 /**
  * Form submit handler for updating the profile.
- *
- * @see ldap_authentication_profile_update_form()
+ * 
+ * @see ldap_authentication_profile_update_form().
  */
 function ldap_authentication_profile_update_form_submit($form, &$form_state) {
   global $user;
-  if (user_save($user, [
+  if (user_save($user, array(
     'mail' => $form_state['values']['mail'],
-  ])) {
-    // Prevents the cached setting from being used again.
+  ))) {
+    // prevents the cached setting from being used again.
     unset($_SESSION['ldap_authentication_template']);
     $form_state['redirect'] = isset($_GET['next']) ? $_GET['next'] : '<front>';
     drupal_set_message(t('Your profile has been updated.'));

@@ -3,11 +3,9 @@
 /**
  * @file
  * The ldap_help resources are just links.
- */
-
-/**
  *
  */
+
 function ldap_help_main() {
 
   $text = <<<EOT
@@ -52,6 +50,7 @@ function ldap_help_main() {
   </ul>
 
 EOT;
+
 
   return $text;
 }

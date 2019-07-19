@@ -66,12 +66,12 @@ class LdapAuthorizationConsumerAbstract {
    */
   public $editLink;
 
-  public $emptyConsumer = [
+  public $emptyConsumer = array(
     'exists' => TRUE,
     'value' => NULL,
     'name' => NULL,
     'map_to_string' => NULL,
-  ];
+  );
 
   /**
    * @property boolean $allowConsumerObjectCreation
@@ -95,14 +95,14 @@ class LdapAuthorizationConsumerAbstract {
    * @property array $defaultConsumerConfProperties
    * default properties for consumer admin UI form
    */
-  public $defaultConsumerConfProperties = [
+  public $defaultConsumerConfProperties = array(
     'onlyApplyToLdapAuthenticated' => TRUE,
     'useMappingsAsFilter' => TRUE,
     'synchOnLogon' => TRUE,
     'revokeLdapProvisioned' => TRUE,
     'regrantLdapProvisioned' => TRUE,
     'createConsumers' => TRUE,
-  ];
+  );
 
   /**
    * Constructor Method.
@@ -127,41 +127,44 @@ class LdapAuthorizationConsumerAbstract {
   }
 
   /**
-   * Function to normalize mappings.
-   *
-   * Should be overridden when mappings are not stored as map|authorization_id format
+   * Function to normalize mappings
+   * should be overridden when mappings are not stored as map|authorization_id format
    * where authorization_id is the format returned by
-   * LdapAuthorizationConsumerAbstract::usersAuthorizations()
+   *   LdapAuthorizationConsumerAbstract::usersAuthorizations()
    *
    * For example ldap_authorization_og may store mapping target as:
-   * Campus Accounts|group-name=knitters,role-name=administrator member
-   * normalized mappings are of form such as for organic groups:
-   * [
-   *   [
-   *     'from' => 'students',
-   *     'normalized' => 'node:21:1',
-   *     'simplified' => 'node:students:member',
-   *     'user_entered' => 'students'
-   *     'valid' => TRUE,
-   *     'error_message' => '',
-   *   ],
-   * ...
-   * ]
+   *   Campus Accounts|group-name=knitters,role-name=administrator member.
    *
-   * Or for Drupal role where rid 3 is moderator and rid 2 is admin:
-   * [
-   *   [
-   *     'from' => 'students',
-   *     'normalized' => '2',
-   *     'simplified' => 'admin',
-   *     'user_entered' => 'admin',
-   *     'valid' => TRUE,
-   *     'error_message' => '',
-   *   ],
-   * ...
-   * ]
+   *   normalized mappings are of form such as for organic groups:
    *
-   * Where 'normalized' is in id format and 'simplified' is user shorthand.
+   *   array(
+         array(
+           'from' => 'students',
+           'normalized' => 'node:21:1',
+           'simplified' => 'node:students:member',
+           'user_entered' => 'students'
+           'valid' => TRUE,
+           'error_message' => '',
+           ),
+
+         ...
+        )
+
+   *   or for drupal role where rid 3 is moderator and rid 2 is admin:
+   *   array(
+         array(
+           'from' => 'students',
+           'normalized' => '2',
+           'simplified' => 'admin',
+           'user_entered' => 'admin',
+           'valid' => TRUE,
+           'error_message' => '',
+           ),
+         ...
+        )
+
+        where 'normalized' is in id format and 'simplified' is user shorthand
+   )
    */
   public function normalizeMappings($mappings) {
     return $mappings;
@@ -318,17 +321,17 @@ class LdapAuthorizationConsumerAbstract {
   protected function grantsAndRevokes($op, &$user, &$user_auth_data, $consumers, &$ldap_entry = NULL, $user_save = TRUE) {
 
     if (!is_array($user_auth_data)) {
-      $user_auth_data = [];
+      $user_auth_data = array();
     }
 
     $detailed_watchdog_log = variable_get('ldap_help_watchdog_detail', 0);
     $this->sortConsumerIds($op, $consumers);
-    $results = [];
-    $watchdog_tokens = [];
+    $results = array();
+    $watchdog_tokens = array();
     $watchdog_tokens['%username'] = $user->name;
     $watchdog_tokens['%action'] = $op;
     $watchdog_tokens['%user_save'] = $user_save;
-    $consumer_ids_log = [];
+    $consumer_ids_log = array();
     $users_authorization_ids = $this->usersAuthorizations($user);
     $watchdog_tokens['%users_authorization_ids'] = join(', ', $users_authorization_ids);
     if ($detailed_watchdog_log) {
@@ -348,20 +351,20 @@ class LdapAuthorizationConsumerAbstract {
         if ($user_has_authorization && !$user_has_authorization_recorded) {
           // Grant case 1: authorization id already exists for user, but is not ldap provisioned.  mark as ldap provisioned, but don't regrant.
           $results[$consumer_id] = TRUE;
-          $user_auth_data[$consumer_id] = [
+          $user_auth_data[$consumer_id] = array(
             'date_granted' => time(),
             'consumer_id_mixed_case' => $consumer_id,
-          ];
+          );
         }
         elseif (!$user_has_authorization && $consumer['exists']) {
           // Grant case 2: consumer exists, but user is not member. grant authorization
           // allow consuming module to add additional data to $user_auth_data.
           $results[$consumer_id] = $this->grantSingleAuthorization($user, $consumer_id, $consumer, $user_auth_data, $user_save);
-          $existing = empty($user_auth_data[$consumer_id]) ? [] : $user_auth_data[$consumer_id];
-          $user_auth_data[$consumer_id] = $existing + [
+          $existing = empty($user_auth_data[$consumer_id]) ? array() : $user_auth_data[$consumer_id];
+          $user_auth_data[$consumer_id] = $existing + array(
             'date_granted' => time(),
             'consumer_id_mixed_case' => $consumer_id,
-          ];
+          );
         }
         elseif ($consumer['exists'] !== TRUE) {
           // Grant case 3: something is wrong. consumers should have been created before calling grantsAndRevokes.
@@ -541,7 +544,7 @@ class LdapAuthorizationConsumerAbstract {
   public function validateAuthorizationMappingTarget($mapping, $form_values = NULL, $clear_cache = FALSE) {
     $message_type = NULL;
     $message_text = NULL;
-    return [$message_type, $message_text];
+    return array($message_type, $message_text);
   }
 
 }
