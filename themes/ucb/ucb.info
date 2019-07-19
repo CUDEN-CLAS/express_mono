@@ -6,6 +6,7 @@ core = 7.x
 
 ; Stylesheets
 stylesheets[screen][] = css/ucb.css
+stylesheets[screen][] = css/styles.css
 stylesheets[print][] = css/ucb-print.css
 
 scripts[] = js/ucb.js
