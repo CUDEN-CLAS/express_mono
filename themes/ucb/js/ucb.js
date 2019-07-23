@@ -43,7 +43,17 @@
       $('#header').focus();
       $('#search-toggle').attr('aria-expanded', 'false');
     });
-
+    $('a.search-toggle-quicklinks').click(function(event){
+      event.preventDefault();
+      $('#quickLinks').slideToggle('fast').focus();
+      $('.container').addClass('fadeIn');
+    });
+    $('a.search-toggle-quicklinks-mobile').click(function(event){
+      event.preventDefault();
+      $('#quickLinks').slideToggle('fast').focus();
+      $('#quickLinks').width('100vw');
+      $('.container').addClass('fadeIn');
+    });
 
     // Prepare Mega menus
     $("a.mega-menu-link").attr('aria-haspopup', true).attr('aria-expanded', false);

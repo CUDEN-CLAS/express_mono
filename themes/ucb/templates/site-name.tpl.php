@@ -32,8 +32,8 @@
   // Null title and url.
   $affiliation_title = NULL;
   $affilation_url = NULL;
-  if ($site_type && ucb_affiliation($site_type)) {
-    $affiliation = ucb_affiliation($site_type);
+  if ($site_type && ucd_affiliation($site_type)) {
+    $affiliation = ucd_affiliation($site_type);
     $affiliation_title = $affiliation['label'];
     $affiliation_url = $affiliation['url'];
   }
@@ -42,7 +42,7 @@
     $affiliation_url = variable_get('express_site_affiliation_url', NULL);
   }
   elseif (!empty($affiliation)) {
-    $affiliation = cu_core_site_affiliation_options($affiliation);
+    $affiliation = ucd_core_site_affiliation_options($affiliation);
     $affiliation_title = $affiliation['label'];
     $affiliation_url = $affiliation['url'];
   }
