@@ -38,3 +38,6 @@ features[field_instance][] = bean-video_hero_unit-field_hero_unit_text_color
 features[field_instance][] = bean-video_hero_unit-field_hero_video_overlay
 features[field_instance][] = bean-video_hero_unit-field_hero_video_size
 features[field_instance][] = bean-video_hero_unit-field_video_hero_url
+
+bundle_request = 1
+bundle_group = 'request_bundles'

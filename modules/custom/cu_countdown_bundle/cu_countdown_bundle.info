@@ -9,4 +9,4 @@ project status url = https://github.com/CuBoulder/cu_countdown_bundle
 dependencies[] = cu_countdown
 dependencies[] = shortcode
 
-bundle_roles[] = developer
+;bundle_roles[] = developer

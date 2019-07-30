@@ -18,6 +18,9 @@ dependencies[] = user_external_invite
 
 bundle_cache_clear = 1
 
+bundle_request = 1
+bundle_group = 'request_bundles'
+
 bundle_roles[] = developer
 bundle_roles[] = administrator
 bundle_roles[] = site_owner
