@@ -96,7 +96,7 @@ function ucb_preprocess_html(&$vars) {
   $element = array(
     '#tag' => 'link', // The #tag is the html tag - <link />
     '#attributes' => array( // Set up an array of attributes inside the tag
-      'href' => '//fast.fonts.net/cssapi/86696b99-fb1a-4964-9676-9233fb4fca8f.css',
+      'href' => '//clas.ucdenver.edu/fontcdn/626502-98384-26.css',
       'rel' => 'stylesheet',
       'type' => 'text/css',
     ),
