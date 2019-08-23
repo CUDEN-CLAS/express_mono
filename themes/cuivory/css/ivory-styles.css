@@ -9,7 +9,8 @@ body.layout-wide #backstretch { display: none; }
 @media screen and (min-width: 1200px) { .layout-responsive.layout-boxed .page { max-width: 1160px; } }
 @media screen and (min-width: 1500px) { .layout-responsive.layout-boxed .page { max-width: 1500px; } }
 
-.banner-black #secondary-menu-wrapper { background-color: #000; }
+.banner-black .header-wrapper { background: #222 !important; }
+.banner-black #secondary-menu-wrapper { background-color: #222; }
 
 .banner-white #secondary-menu-wrapper { background-color: #fff; }
 .banner-white #secondary-menu { border: 1px solid #d7d7d7; }

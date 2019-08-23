@@ -9,7 +9,9 @@ body { background: none; background-color: #000; background-color: #f2f2f2; back
 @media screen and (min-width: 1200px) { .layout-responsive .page { max-width: 1160px; } }
 @media screen and (min-width: 1500px) { .layout-responsive .page { max-width: 1500px; } }
 
-#secondary-menu-wrapper { background-color: #000; }
+.banner-black .header-wrapper { background: #222 !important; }
+
+#secondary-menu-wrapper { background-color: #222; }
 
 #main-menu-wrapper { background-color: #444; }
 
