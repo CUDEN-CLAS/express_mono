@@ -14,16 +14,19 @@
 .search-toggle-quicklinks:hover {text-decoration:underline !important}
 .search-toggle-link:hover {text-decoration:underline !important}
 .search-toggle-quicklinks-mobile { display: none; padding: 5px 10px 0px 10px; float: right; font-size: 14px; }
-.brand-bar { padding: 0px 0px !important; }
+.brand-bar { position: -webkit-sticky; position: sticky; top: 0; right: 0; left: 0; padding: 0px 0px !important; z-index: 200}
 
 .brand-bar.brand-bar-color-white { background: #fff !important; color: #000 !important; }
 .brand-bar.brand-bar-color-white a:link, .brand-bar.brand-bar-color-white a:visited { color: #000 !important; }
 .brand-bar.brand-bar-color-black { background: #000 !important; color: #fff !important; }
 .brand-bar.brand-bar-color-black a:link, .brand-bar.brand-bar-color-black a:visited { color: #fff !important; }
 
+h1.site-name { margin: 20px 0; }
+div.site-name { margin: 20px 0; }
+
 @media screen and (min-width: 768px) { header.ucb, header.ucb .site-name, header.ucb h1.site-name { font-size: 28px !important; } }
 
-.affiliation { font-weight: 300 !important; text-transform: uppercase !important; font-size: 62% !important; padding-top: 15px !important; }
+.affiliation { font-weight: 300 !important; text-transform: uppercase !important; font-size: 62% !important; margin-top: -10px; }
 
 @media screen and (min-width: 960px) { .search-toggle-link { display: inline-block; } }
 @media screen and (min-width: 960px) { .search-toggle-quicklinks { display: inline-block; } }
