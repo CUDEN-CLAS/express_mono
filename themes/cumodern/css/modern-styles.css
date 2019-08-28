@@ -30,7 +30,7 @@ h2.secondary-menu-label { margin-left: 8px; }
 
 #secondary-menu { background-color: #444; }
 
-#main-menu-wrapper { background-color: #000 !important; }
+#main-menu-wrapper { background-color: #000 !important; border-top: 1px solid #333 }
 
 #main-menu-wrapper ul#main-menu > li > a { font-weight: 600; color: #fff; }
 #main-menu-wrapper ul#main-menu > li > a:hover { background-color: #444; }

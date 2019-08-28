@@ -13,7 +13,7 @@ body { background: none; background-color: #000; background-color: #f2f2f2; back
 
 #secondary-menu-wrapper { background-color: #222; }
 
-#main-menu-wrapper { background-color: #444; }
+#main-menu-wrapper { background-color: #444; border-top: 1px solid #333 }
 
 #navigation ul#main-menu > li > a { color: #fff; font-size: 90%; font-weight: 600; }
 #navigation ul#main-menu > li > a:hover, #navigation ul#main-menu > li > a:focus, #navigation ul#main-menu > li > a.active, #navigation ul#main-menu > li > a.active-trail { background-color: #fff; color: #363839; }
