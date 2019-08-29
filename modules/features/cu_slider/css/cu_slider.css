@@ -19,7 +19,7 @@
 .cu-slider-style-1 .cu-slider-slide-content-wrapper { background: #222; padding: 10px 50px; }
 @media screen and (min-width: 480px) { .cu-slider-style-1 .cu-slider-slide-content-wrapper { background: rgba(0, 0, 0, 0.7); position: absolute; bottom: 0; left: 0; right: 0; z-index: 1; } }
 @media screen and (min-width: 768px) { .cu-slider-style-1 .cu-slider-slide-content-wrapper { padding: 15px; } }
-.cu-slider-style-1 a:link, .cu-slider-style-1 a:visited { color: #fff !important; }
+.cu-slider-style-1 a:link, .cu-slider-style-1 a:visited { color: #fff; }
 .cu-slider-style-1 .cu-slider-teaser a:link, .cu-slider-style-1 .cu-slider-teaser a:visited { text-decoration: underline; }
 
 /* Slider Style 2 */
