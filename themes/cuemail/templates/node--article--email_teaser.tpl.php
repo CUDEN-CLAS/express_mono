@@ -17,9 +17,11 @@
             <h3 class="teaser-title"><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
             <?php if (!empty($content['field_article_categories'])): ?>
               <table role="presentation">
-                <td class="tags">
-                  <?php print render($content['field_article_categories']); ?>
-                </td>
+                <tr>
+                  <td class="tags">
+                    <?php print render($content['field_article_categories']); ?>
+                  </td>
+                </tr>
               </table>
             <?php endif; ?>
             <?php print render($content['body']); ?>

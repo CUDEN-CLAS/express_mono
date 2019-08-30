@@ -13,12 +13,14 @@ body, table.body { background-color: #000000; }
 
 .issue { background-color: #ffffff; }
 
-td.issue-date { color: #cccccc; }
+td.issue-date { color: #ffffff; }
 
-td.web-link a { color: #cccccc; }
-td.web-link a:link, td.web-link a:visited, td.web-link a:active { color: #cccccc !important; }
+td.newsletter-logo a { color: #cccccc; }
+td.newsletter-logo a:link, td.newsletter-logo a:visited, td.newsletter-logo a:active { color: #cccccc !important; }
 
-td.web-link a:hover { color: #ffffff !important; }
+td.newsletter-logo a:hover { color: #ffffff !important; }
+
+td.web-link { color: #ffffff; }
 
 .title td h1 { color: #ffffff; }
 

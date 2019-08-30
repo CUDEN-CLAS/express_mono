@@ -13,22 +13,24 @@ body, table.body { background-color: #f2f2f2; }
 
 .issue { background-color: #ffffff; }
 
-td.issue-date { color: #cccccc; }
+td.issue-date { color: #cfb87c; }
 
-td.web-link a { color: #cccccc; }
-td.web-link a:visited, td.web-link a:active { color: #cccccc !important; }
+td.newsletter-logo a.websitelink { color: #cccccc; }
+td.newsletter-logo a.websitelink:link, a.websitelink:visited, td.newsletter-logo a.websitelink:active { color: #cccccc !important; }
 
-td.web-link a:hover { color: #ffffff !important; }
+td.newsletter-logo a.websitelink:hover { color: #ffffff !important; }
+
+td.web-link { color: #ffffff; }
 
 .title td h1 { color: #ffffff; }
 
-td.email-top { padding: 0 0 20px; }
+td.email-top { padding: 0 0 10px; }
 
 /* Article List */
 .article-list { background-color: #fff; }
 
 /* Articles */
-.content-top { margin-top: -20px; position: relative; }
+.content-top { position: relative; }
 
 .content-top td.newsletter-sections { padding-top: 10px; background-color: #FFFFFF; }
 

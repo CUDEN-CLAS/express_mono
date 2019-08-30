@@ -9,9 +9,11 @@
             <div class="content-padding">
               <div class="intro-image">
                 <table role="presentation">
-                  <td class="padding-bottom">
-                    <?php print render($content['field_newsletter_intro_image']); ?>
-                  </td>
+                  <tr>
+                    <td class="padding-bottom">
+                      <?php print render($content['field_newsletter_intro_image']); ?>
+                    </td>
+                  </tr>
                 </table>
               </div>
               <?php if (!empty($content['body'])): ?>

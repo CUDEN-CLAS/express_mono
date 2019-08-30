@@ -30,7 +30,7 @@
                         <tr>
                           <?php if (!empty($newsletter_logo_url)): ?>
                             <td class="newsletter-name">
-                              <h1><img src="<?php print $newsletter_logo_url; ?>" alt="<?php print $newsletter_name; ?>" width="<?php print $newsletter_logo_width; ?>" height="<?php print $newsletter_logo_height; ?>" /></h1>
+                              <h1><img src="<?php print $newsletter_logo_url; ?>" alt="<?php print $newsletter_name; ?> Logo" width="<?php print $newsletter_logo_width; ?>" height="<?php print $newsletter_logo_height; ?>" /></h1>
                             </td>
                           <?php else: ?>
                             <td class="newsletter-name">
@@ -38,7 +38,7 @@
                             </td>
                           <?php endif; ?>
                           <td class="newsletter-logo">
-                            <img src="<?php print $path; ?>/images/<?php print cuemail_logo_color($design); ?>" alt="University of Colorado Boulder " id="logo" width="212" height="32" />
+                            <?php print l('View on Website', 'node/' . $node->nid, array('attributes' => array('class' => array('websitelink')), 'absolute' => TRUE)); ?>
                           </td>
                         </tr>
                       </table>
@@ -46,11 +46,11 @@
       									<tr>
       										<td class="issue-date">
 
-      											<strong><?php print $ap_date_cu_medium_date; ?></strong>
+      											<strong><?php print $newsletter_name; ?></strong>
       										</td>
       										<td class="web-link">
 
-                            <?php print l('View on website', 'node/' . $node->nid, array('absolute' => TRUE)); ?>
+                                       <strong><?php print $ap_date_cu_medium_date; ?></strong>
 
       										</td>
       									</tr>
@@ -152,12 +152,12 @@
           <table class="container email-footer" role="presentation">
             <tr>
               <td>
-
                 <table class="row footer">
-                  <td class="wrapper last">
-                    <table class="twelve columns" role="presentation">
-                      <tr>
-                        <td class="footer-content text-pad padding-bottom">
+                  <tr>
+                    <td class="wrapper last">
+                      <table class="twelve columns" role="presentation">
+                        <tr>
+                          <td class="footer-content text-pad padding-bottom">
                           <?php if (!empty($social_links)): ?>
                             <div class="social-links">
                                 <?php print $social_links; ?>
@@ -198,12 +198,13 @@
                           &nbsp;&nbsp;&nbsp;&nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;
 
-                        </td>
-                        <td class="expander"></td>
-                      </tr>
-                    </table>
-                  </td>
-                </table>
+                          </td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </table>
+                </tr>
               </td>
             </tr>
           </table>

@@ -11,15 +11,17 @@
           <td class="text-pad padding-bottom">
             <?php if(!empty($content['image'])): ?>
               <table role="presentation">
-                <td class="padding-bottom">
-              <?php if(!empty($content['link'])): ?>
-                <a href="<?php print $content['link']; ?>"><?php print render($content['image']); ?></a>
-              <?php else: ?>
-                <?php print render($content['image']); ?>
-              <?php endif; ?>
+                <tr>
+                  <td class="padding-bottom">
+                <?php if(!empty($content['link'])): ?>
+                  <a href="<?php print $content['link']; ?>"><?php print render($content['image']); ?></a>
+                <?php else: ?>
+                  <?php print render($content['image']); ?>
+                <?php endif; ?>
 
 
-                </td>
+                  </td>
+                </tr>
               </table>
             <?php endif; ?>
             <div class="content-padding">
