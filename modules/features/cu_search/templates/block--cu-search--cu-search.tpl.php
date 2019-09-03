@@ -42,8 +42,8 @@
         <div class="campus-links">
           <h3 class="display-inline">Other ways to search: </h3>
           <ul class="inline inline-menu">
-            <li><a href="https://calendar.colorado.edu">Events Calendar</a></li>
-            <li><a href="https://www.colorado.edu/map">Campus Map</a></li>
+            <li><a href="https://directory.ucdenver.edu">University Directory</a></li>
+            <li><a href="https://map.concept3d.com/?id=575#!">Campus Map</a></li>
           </ul>
 
         </div>

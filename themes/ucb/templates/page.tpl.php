@@ -47,70 +47,7 @@
           <button id="toggle" aria-haspopup="true" aria-expanded="false" aria-controls="mobile-menu" aria-label="Navigation"><i class="fa fa-reorder fa-fw" aria-hidden="true"></i><span class="mobile-menu-text">Menu </span></button>
         </div>
       </header>
-      <div class="clearfix"></div>
-    <div class="u-mask">
-
-<div class="t-contentBlock u-mask">
-
-    <div><div id="quickLinks" class="t-quickLinks" aria-label="Quick links navigation">
-<div class="container">
-<div class="col-md-3" style="float:left">
-<h3>Locations</h3>
-<ul class="list-unstyled">
-    <li><a href="http://www.ucdenver.edu/">CU Denver</a></li>
-    <li><a href="http://www.ucdenver.edu/anschutz/">CU Anschutz Medical Campus</a></li>
-    <li><a href="http://southdenver.cu.edu/">CU South Denver</a></li>
-    <li><a href="http://www.ucdenver.edu/academics/cuonline/">CU Online</a></li>
-</ul>
-</div>
-<div class="col-md-3" style="float:left">
-<h3>Tools</h3>
-<ul class="list-unstyled">
-    <li><a href="http://myemail.ucdenver.edu/">Webmail</a></li>
-    <li><a href="https://portal.prod.cu.edu/UCDAccessFedAuthLogin.html">UCDAccess</a></li>
-    <li><a href="http://www.ucdenver.edu/courselogin">Canvas</a></li>
-    <li><a href="https://directory.ucdenver.edu/">Directory</a></li>
-    <li><a href="http://www.ucdenver.edu/AZIndex/Pages/A-ZIndex.aspx">A-Z</a></li>
-    <li><a href="http://www.ucdenver.edu/faculty-staff/">Faculty &amp; Staff</a></li>
-    <li><a href="http://library.auraria.edu/">Auraria Library</a></li>
-    <li><a href="http://hslibrary.ucdenver.edu/">Health Sciences Library</a></li>
-</ul>
-</div>
-<div class="col-md-6">
-<h3>Schools and Colleges</h3>
-<div class="row">
-<div class="col-md-6" style="float:left">
-<h4>CU Denver</h4>
-<ul class="list-unstyled">
-    <li><a href="http://www.ucdenver.edu/Academics/Colleges/ArchitecturePlanning/">College of Architecture and Planning</a></li>
-    <li><a href="http://www.ucdenver.edu/academics/colleges/CAM/">College of Arts and Media</a></li>
-    <li><a href="http://www.ucdenver.edu/academics/colleges/business/">Business School</a></li>
-    <li><a href="http://www.ucdenver.edu/academics/colleges/SchoolOfEducation/">School of Education and Human Development</a></li>
-    <li><a href="http://www.ucdenver.edu/academics/colleges/Engineering/">College of Engineering and Applied Science</a></li>
-    <li><a href="http://www.ucdenver.edu/academics/colleges/Graduate-School/">Graduate School</a></li>
-    <li><a href="https://clas.ucdenver.edu">College of Liberal Arts and Sciences</a></li>
-    <li><a href="http://www.ucdenver.edu/academics/colleges/SPA/">School of Public Affairs</a></li>
-</ul>
-</div>
-<div class="col-md-6">
-<h4>CU Anschutz Medical Campus</h4>
-<ul class="list-unstyled">
-    <li><a href="http://www.ucdenver.edu/academics/colleges/dentalmedicine/">School of Dental Medicine</a></li>
-    <li><a href="http://www.ucdenver.edu/academics/colleges/Graduate-School/">Graduate School</a></li>
-    <li><a href="http://www.ucdenver.edu/academics/colleges/medicalschool/">School of Medicine</a></li>
-    <li><a href="http://www.ucdenver.edu/academics/colleges/nursing/">College of Nursing</a></li>
-    <li><a href="http://www.ucdenver.edu/academics/colleges/pharmacy/">Skaggs School of Pharmacy and Pharmaceutical Sciences</a></li>
-    <li><a href="http://www.ucdenver.edu/academics/colleges/PublicHealth/">Colorado School of Public Health</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!--maintain sperately--></div> <div class="clearfix"></div>
-
-</div>
- </div>
+      <!-- /QL -->
     </div>
     </div>
     <!-- /SITE HEADER -->

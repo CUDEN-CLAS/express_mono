@@ -1,6 +1,6 @@
 body { background: none; background-color: #000; background-color: #f2f2f2; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; }
 
-@media screen and (min-width: 960px) { .page-wrapper { padding: 20px 0; } }
+@media screen and (min-width: 960px) { .page-wrapper { padding: 0 0; } }
 .page { -webkit-box-shadow: 0 0 80px rgba(0, 0, 0, 0.25); -moz-box-shadow: 0 0 80px rgba(0, 0, 0, 0.25); box-shadow: 0 0 80px rgba(0, 0, 0, 0.25); }
 
 .layout-fixed .page { width: 1160px; margin: 0 auto; }
