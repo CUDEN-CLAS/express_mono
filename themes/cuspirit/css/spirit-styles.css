@@ -14,21 +14,20 @@ body { background: #000; }
 
 .banner-light #header-wrapper { background: #f5f5f5; }
 
-a:link, a:visited { color: #0267a4; }
 
-a:hover { color: #e51c23; }
 
 .slider-wrapper { padding: 20px 0; }
 
 .banner-black .header-wrapper { background: #222 !important; }
 
-#main-menu-wrapper { background: #fff; -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
-#main-menu-wrapper #navigation ul#main-menu > li > a:link, #main-menu-wrapper #navigation ul#main-menu > li > a:visited { color: #333; line-height: 64px; font-weight: 600; border-right: 1px solid #d7d7d7; padding: 0 12px; }
-#main-menu-wrapper #navigation ul#main-menu > li > a:hover, #main-menu-wrapper #navigation ul#main-menu > li > a:focus { background-color: #eee; color: #333; }
-#main-menu-wrapper #navigation ul#main-menu > li > a.active, #main-menu-wrapper #navigation ul#main-menu > li > a.active-trail { background-color: #cfb87c; color: #000; }
-#main-menu-wrapper #navigation ul#main-menu > li > a.home-link.active { background: transparent; }
-#main-menu-wrapper #navigation ul.action-menu a { font-weight: 600; margin: 20px 5px; }
-#main-menu-wrapper .home-link { margin-left: -12px; }
+.banner-black #main-menu-wrapper { background: #fff; -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2) }
+.banner-black #main-menu-wrapper #navigation ul#main-menu > li > a:link, .banner-black #main-menu-wrapper #navigation ul#main-menu > li > a:visited { color: #333; line-height: 64px; font-weight: 600; border-right: 1px solid #d7d7d7; padding: 0 12px; }
+.banner-black #main-menu-wrapper #navigation ul#main-menu li a:hover { background-color: #cfb87c; color: #333; }
+.banner-black #main-menu-wrapper #navigation ul#main-menu > li > a:focus { background-color: #cfb87c; color: #333; }
+.banner-black #main-menu-wrapper #navigation ul#main-menu > li > a.active, .banner-black #main-menu-wrapper #navigation ul#main-menu > li > a.active-trail { background-color: #cfb87c; color: #000; }
+.banner-black #main-menu-wrapper #navigation ul#main-menu > li > a.home-link.active { background: transparent; }
+.banner-black #main-menu-wrapper #navigation ul.action-menu a { font-weight: 600; margin: 20px 5px; }
+.banner-black #main-menu-wrapper .home-link { margin-left: -12px; }
 
 ul#action-menu a { color: #333; }
 

@@ -29,7 +29,10 @@ div.site-name { margin: 20px 0; }
 
 @media screen and (min-width: 768px) { header.ucb, header.ucb .site-name, header.ucb h1.site-name { font-size: 28px !important; } }
 
-.affiliation { font-weight: 300 !important; text-transform: uppercase !important; font-size: 62% !important; margin-top: -10px; }
+.affiliation { font-weight: 300; text-transform: uppercase !important; font-size: 70% !important; margin-top: -10px; }
+
+.banner-black .header-wrapper .affiliation a:link, .banner-black .header-wrapper .affiliation a:visited {color: #fff}
+.banner-dark .header-wrapper .affiliation a:link, .banner-dark .header-wrapper .affiliation a:visited {color: #fff}
 
 @media screen and (min-width: 960px) { .search-toggle-link { display: inline-block; } }
 @media screen and (min-width: 960px) { #search-toggle-quicklinks { display: inline-block; } }
@@ -38,7 +41,7 @@ div.site-name { margin: 20px 0; }
 @media screen and (min-width: 480px) { .search-toggle-quicklinks-mobile { display: block; float:left; } }
 
 @media all and (min-width: 961px) {
-    #cudenlogo {background-image:url("../images/cudenver/ucdlogo.png"); display:block; height:50px; overflow:hidden; text-indent:100%; white-space:nowrap; width:322px}
+    #cudenlogo {background-image:url("../images/cudenver/ucdlogo.png"); display:block; height:50px; overflow:hidden; text-indent:100%; white-space:nowrap; width:308px}
 }
 @media all and (max-width: 960px) {
     #cudenlogo {background-image:url("../images/cudenver/ucdlogo-mobile.png"); display:block; height:50px; overflow:hidden; text-indent:100%; white-space:nowrap; width:134px} 
