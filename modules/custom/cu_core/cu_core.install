@@ -392,8 +392,8 @@ function cu_core_update_7061() {
  * Fixing array formatting of string overrides, Setting gtm variable.
  */
 function cu_core_update_7062() {
-  module_enable(array('google_tag'));
-  variable_set('google_tag_container_id', 'GTM-M3DX2QP');
+  //module_enable(array('google_tag'));
+  //variable_set('google_tag_container_id', 'GTM-M3DX2QP');
 
   $locale_custom_strings_en = array();
   $locale_custom_strings_en[''] = array(
