@@ -96,7 +96,7 @@ function ucb_preprocess_html(&$vars) {
   $element = array(
     '#tag' => 'link', // The #tag is the html tag - <link />
     '#attributes' => array( // Set up an array of attributes inside the tag
-      'href' => '//fast.fonts.net/cssapi/86696b99-fb1a-4964-9676-9233fb4fca8f.css',
+      'href' => '//clas.ucdenver.edu/fontcdn/626502-98384-26.css',
       'rel' => 'stylesheet',
       'type' => 'text/css',
     ),
@@ -136,7 +136,7 @@ function ucb_preprocess_html(&$vars) {
   }
   // Build title array
   // Add Campus name to title
-  $slogan_title = variable_get('site_slogan_title', 'University of Colorado Boulder');
+  $slogan_title = variable_get('site_slogan_title', 'University of Colorado Denver');
   $vars['head_title_array']['slogan'] = $slogan_title;
   if (isset($vars['head_title']) && !drupal_is_front_page()) {
     $vars['head_title'] .= ' | ' . $slogan_title;
@@ -190,11 +190,11 @@ function ucb_preprocess_html(&$vars) {
 function ucb_preprocess_page(&$vars) {
   global $base_url;
   // Set site slogan so it can't be overriden
-  $slogan_display = variable_get('site_slogan_display', 'University of Colorado <strong>Boulder</strong>');
+  $slogan_display = variable_get('site_slogan_display', 'University of Colorado <strong>Denver</strong>');
   $vars['site_slogan'] = $slogan_display;
   $vars['site_name'] = variable_get('site_name', '');
   // add print logo
-  $vars['print_logo'] = '<img src="' . $base_url . '/' . drupal_get_path('theme','ucb') . '/images/print-logo.png" alt="University of Colorado Boulder" />';
+  $vars['print_logo'] = '<img src="' . $base_url . '/' . drupal_get_path('theme','ucb') . '/images/print-logo.png" alt="University of Colorado Denver" />';
   // hide title on homepage
   if($vars['is_front'] == TRUE) {
     $vars['title_hidden'] = TRUE;
@@ -411,9 +411,9 @@ function ucb_preprocess_region(&$vars) {
       } else {
         $vars['site_name'] = variable_get('site_name', NULL);
       }
-      $slogan_display = variable_get('site_slogan_display', 'University of Colorado <strong>Boulder</strong>');
+      $slogan_display = variable_get('site_slogan_display', 'University of Colorado <strong>Denver</strong>');
       $vars['site_slogan'] = $slogan_display;
-      $vars['print_logo'] = '<img src="' . $base_url . '/' . drupal_get_path('theme','ucb') . '/images/print-logo.png" alt="University of Colorado Boulder" />';
+      $vars['print_logo'] = '<img src="' . $base_url . '/' . drupal_get_path('theme','ucb') . '/images/print-logo.png" alt="University of Colorado Denver" />';
       break;
     case 'secondary_menu':
       $vars['secondary_menu'] = menu_secondary_menu();
