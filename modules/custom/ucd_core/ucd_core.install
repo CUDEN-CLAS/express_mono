@@ -64,7 +64,7 @@ function ucd_core_install() {
 
   variable_set('site_name', 'University of Colorado Denver');
   variable_set('site_name_1', 'University of Colorado Denver');
-  variable_set('site_slogan', 'University of Colorado Denver');
+  variable_set('site_slogan', 'CU Denver College of Liberal Arts and Sciences');
 
   variable_set('express_help_base_url', 'https://clas.ucdenver.edu/web-support');
 
