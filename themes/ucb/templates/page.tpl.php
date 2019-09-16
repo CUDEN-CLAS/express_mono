@@ -88,7 +88,6 @@
                 </div>
               </div>
             </div>
-           <div class="clearfix"></div>
           </div>
         </div>
       <header class="ucb header clearfix" id="header" role="banner" tabindex="-1">
