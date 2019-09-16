@@ -17,7 +17,7 @@
 #search-toggle-quicklinks:hover {text-decoration:underline}
 .search-toggle-link:hover {text-decoration:underline !important}
 .search-toggle-quicklinks-mobile { display: none; padding: 5px 10px 0px 10px; float: right; font-size: 14px; }
-.brand-bar { position: -webkit-sticky; position: sticky; top: 0; right: 0; left: 0; padding: 0px 0px !important; z-index: 200}
+.brand-bar { position: -webkit-sticky; position: sticky; top: 0; right: 0; left: 0; padding: 0px 0px !important; z-index: 200; border-bottom: 1px solid #333}
 
 .brand-bar.brand-bar-color-white { background: #fff !important; color: #000 !important; }
 .brand-bar.brand-bar-color-white a:link, .brand-bar.brand-bar-color-white a:visited { color: #000 !important; }
@@ -71,12 +71,11 @@ div.site-name { margin: 20px 0; }
 
 #cuicContainer {position: relative;	margin-bottom:55px; border-color: #222; background: #000 !important}
 
-#cuic {bottom: -30px; position: absolute;	right: 0; max-width: 400px !important;
-}
+#cuic {bottom: -30px; position: absolute;	right: 0; max-width: 400px !important;}
 
 @media all and (max-width: 768px) {	#cuic {width:300px !important}}
 
-#quickLinks {padding: 15px 0; position: absolute; top:49px; left:0px; width: 100%; display: none; z-index: 250; border-top 1px solid #333}
+#quickLinks {padding: 15px 0; position: absolute; top:0px; left:0px; width: 100%; display: none; z-index: 199}
 
 #quickLinks .row {margin-left: -15px; margin-right: -15px;}
 
@@ -96,9 +95,10 @@ div.site-name { margin: 20px 0; }
 
 .t-quickLinks li a:hover {color: #fff; text-decoration:underline !important}
 
-.t-quickLinks {background-color: #222; border-bottom: 1px solid #333}
+.t-quickLinks {background-color: #222;}
 
 .quickLinksVisible {display: block!important; top: 0; position: absolute!important}
+
 
 .quickLinksToggled {
     border-bottom: 0 none!important;
