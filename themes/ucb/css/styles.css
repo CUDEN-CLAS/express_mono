@@ -41,10 +41,10 @@ div.site-name { margin: 20px 0; }
 @media screen and (min-width: 480px) { .search-toggle-quicklinks-mobile { display: block; float:left; } }
 
 @media all and (min-width: 961px) {
-    #cudenlogo {background-image:url("../images/cudenver/ucdlogo.png"); display:block; height:50px; overflow:hidden; text-indent:100%; white-space:nowrap; width:308px}
+    #cudenlogo {background-image:url("../images/cudenver/ucdlogo.png"); display:block; height:50px; overflow:hidden; text-indent:100%; white-space:nowrap; max-width: 308px; width:308px}
 }
 @media all and (max-width: 960px) {
-    #cudenlogo {background-image:url("../images/cudenver/ucdlogo-mobile.png"); display:block; height:50px; overflow:hidden; text-indent:100%; white-space:nowrap; width:134px} 
+    #cudenlogo {background-image:url("../images/cudenver/ucdlogo-mobile.png"); display:block; height:50px; overflow:hidden; text-indent:100%; white-space:nowrap; max-width: 134px; width:134px} 
 }
 
 #site-info-wrapper {background-color:#222}
