@@ -2,13 +2,14 @@
   global $base_url;
   // Set brand bar color.
 	$color = isset($logo_color) ? $logo_color : 'black';
+	$logo = $base_url . '/' . drupal_get_path('theme', 'ucb') . '/images/cudenver/ucd-logo-black.png';
 
 ?>
 <div class="brand-bar brand-bar-color-<?php print $color; ?> no-underline">
   <div class="container">
     <div class="brand-bar-container">
       <div class="brand-logo">
-        <a href="http://www.ucdenver.edu" title="University of Colorado Denver | Anschutz Medical Campus"><img src="profiles/express/themes/ucb/images/cudenver/ucd-logo-black.png" alt="CU Logo"></a>
+        <a href="http://www.ucdenver.edu" title="University of Colorado Denver | Anschutz Medical Campus"><img src="<?php print $logo; ?>" alt="CU Logo"></a>
         <h2 class="univtitle-lg">University of Colorado <strong>Denver</strong></h2>
         <h2 class="univtitle-sm"><strong>Denver</strong></h2>
       </div>
