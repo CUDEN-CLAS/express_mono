@@ -42,9 +42,11 @@ div.site-name { margin: 20px 0; }
 
 @media all and (min-width: 961px) {
     #cudenlogo {background-image:url("../images/cudenver/ucdlogo.png"); display:block; height:50px; overflow:hidden; text-indent:100%; white-space:nowrap; max-width: 308px; width:308px}
+    .brand-bar-container .brand-logo { max-width: 308px; }
 }
 @media all and (max-width: 960px) {
-    #cudenlogo {background-image:url("../images/cudenver/ucdlogo-mobile.png"); display:block; height:50px; overflow:hidden; text-indent:100%; white-space:nowrap; max-width: 134px; width:134px} 
+    #cudenlogo {background-image:url("../images/cudenver/ucdlogo-mobile.png"); display:block; height:50px; overflow:hidden; text-indent:100%; white-space:nowrap; max-width: 134px; width:134px}
+    .brand-bar-container .brand-logo { min-width: 134px; max-width: 134px; }
 }
 
 #site-info-wrapper {background-color:#222}
