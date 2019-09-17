@@ -8,7 +8,7 @@
   <div class="container">
     <div class="brand-bar-container">
       <div class="brand-logo">
-        <a id="cudenlogo" href="http://www.ucdenver.edu">University of Colorado Denver</a><h2 class="element-invisible"><a href="http://www.ucdenver.edu" title="http://www.ucdenver.edu">University of Colorado Denver</a>
+        <a id="cudenlogo" href="http://www.ucdenver.edu">University of Colorado Denver</a><h2 class="element-invisible"><a href="http://www.ucdenver.edu" title="http://www.ucdenver.edu">University of Colorado Denver</a></h2>
       </div>
       <div class="brand-links">
       </div>
