@@ -31,8 +31,14 @@ div.site-name { margin: 20px 0; }
 
 .affiliation { font-weight: 300; text-transform: uppercase !important; font-size: 70% !important; margin-top: -10px; }
 
+h2.univtitle-lg, h2.univtitle-sm {float:left; margin: 14px 0px 0px 0px !important}
+
 .banner-black .header-wrapper .affiliation a:link, .banner-black .header-wrapper .affiliation a:visited {color: #fff}
 .banner-dark .header-wrapper .affiliation a:link, .banner-dark .header-wrapper .affiliation a:visited {color: #fff}
+
+.brand-fonts .brand-bar-container .brand-logo h2 { font-family: "Neue Helvetica W01", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-size: 1.3em !important; font-weight: 300 !important; line-height: 1.1 !important }
+.brand-fonts .brand-bar-container .brand-logo h2 strong { font-family: "Neue Helvetica W05", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-weight: 700 !important }
+.brand-fonts .brand-bar-container .brand-logo img {float: left; margin-right: 6px; margin-top: 10px; max-width: 30px}
 
 @media screen and (min-width: 960px) { .search-toggle-link { display: inline-block; } }
 @media screen and (min-width: 960px) { #search-toggle-quicklinks { display: inline-block; } }
@@ -42,11 +48,15 @@ div.site-name { margin: 20px 0; }
 
 @media all and (min-width: 961px) {
     #cudenlogo {background-image:url("../images/cudenver/ucdlogo.png"); display:block; height:50px; overflow:hidden; text-indent:100%; white-space:nowrap; max-width: 308px; width:308px}
-    .brand-bar-container .brand-logo { max-width: 308px; }
+    .brand-bar-container .brand-logo { max-height: 50px; height: 50px; max-width: 450px; }
+    .univtitle-sm {display: none}
+    .univtitle-lg {display: block}
 }
 @media all and (max-width: 960px) {
     #cudenlogo {background-image:url("../images/cudenver/ucdlogo-mobile.png"); display:block; height:50px; overflow:hidden; text-indent:100%; white-space:nowrap; max-width: 134px; width:134px}
-    .brand-bar-container .brand-logo { min-width: 134px; max-width: 134px; }
+    .brand-bar-container .brand-logo { max-height: 50px; height: 50px; min-width: 134px; max-width: 134px; }
+    .univtitle-lg {display: none}
+    .univtitle-sm {display: block}
 }
 
 #site-info-wrapper {background-color:#222}

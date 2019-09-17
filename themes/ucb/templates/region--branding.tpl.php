@@ -8,7 +8,9 @@
   <div class="container">
     <div class="brand-bar-container">
       <div class="brand-logo">
-        <a id="cudenlogo" href="http://www.ucdenver.edu">University of Colorado Denver</a><h2 class="element-invisible"><a href="http://www.ucdenver.edu" title="http://www.ucdenver.edu">University of Colorado Denver</a></h2>
+        <a href="http://www.ucdenver.edu" title="University of Colorado Denver | Anschutz Medical Campus"><img src="profiles/express/themes/ucb/images/cudenver/ucd-logo-black.png" alt="CU Logo"></a>
+        <h2 class="univtitle-lg">University of Colorado <strong>Denver</strong></h2>
+        <h2 class="univtitle-sm"><strong>Denver</strong></h2>
       </div>
       <div class="brand-links">
       </div>
