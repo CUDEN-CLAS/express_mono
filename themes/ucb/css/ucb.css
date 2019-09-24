@@ -381,7 +381,7 @@ img.image-small[style*="float:right"], img.image-small[style*="float:left"] { ma
 
 .feature-layout-callout .image-square, .feature-layout-callout .image-small-thumbnail { width: 110px; }
 
-.field-type-text-with-summary img, .field-type-text-long img, img.image-large, img.image-medium, img.image-small, img.image-large_square_thumbnail, img.image-large_wide_thumbnail, img.image-square_thumbnail, img.image-square, img.image-small_square, img.image-thumbnail, img.image-slider { height: auto; min-width: 50px; }
+.field-type-text-with-summary img, .field-type-text-long img, img.image-large, img.image-medium, img.image-small, img.image-large_square_thumbnail, img.image-large_wide_thumbnail, img.image-square_thumbnail, img.image-square, img.image-small_square, img.image-thumbnail, img.image-slider { height: auto; min-width: 50px; max-width:100% }
 
 /** Icon styles */
 .icon-color-black, .exbd-icon-color-black, a .icon-color-black, a .exbd-icon-color-black { color: #000; }
