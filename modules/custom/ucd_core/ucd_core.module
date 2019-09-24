@@ -305,7 +305,7 @@ function ucd_core_site_affiliation_options($option = NULL) {
     ),
     'school_business' => array(
       'url' => 'https://business.ucdenver.edu',
-      'label' => 'School of Business',
+      'label' => 'CU Denver Business School',
     ),
   );
 
