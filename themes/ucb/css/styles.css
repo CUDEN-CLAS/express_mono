@@ -46,7 +46,11 @@ h2.univtitle-lg, h2.univtitle-sm {float:left; margin: 14px 0px 0px 0px !importan
 @media screen and (min-width: 960px) { #search-toggle-quicklinks { display: inline-block; } }
 
 @media screen and (max-width: 960px) { .search-toggle-quicklinks-mobile { display: block; float:left; } }
-@media screen and (min-width: 480px) { .search-toggle-quicklinks-mobile { display: block; float:left; } }
+@media screen and (min-width: 480px) { .search-toggle-quicklinks-mobile { display: block; float:left; } 
+    .quickLinksVisible {position: absolute !important; top: 0}
+}
+
+@media screen and (max-width: 480px) { .quickLinksVisible { display: block; position: fixed !important; top: 50px !important; height: 100%; overflow-y: scroll} }
 
 @media all and (min-width: 961px) {
     .brand-bar-container .brand-logo { max-height: 50px; height: 50px; max-width: 450px; }
@@ -109,7 +113,7 @@ h2.univtitle-lg, h2.univtitle-sm {float:left; margin: 14px 0px 0px 0px !importan
 
 .t-quickLinks {background-color: #222;}
 
-.quickLinksVisible {display: block!important; top: 0; position: absolute!important}
+.quickLinksVisible {display: block !important; top: 0;}
 
 
 .quickLinksToggled {
