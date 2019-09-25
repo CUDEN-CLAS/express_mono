@@ -50,7 +50,7 @@ h2.univtitle-lg, h2.univtitle-sm {float:left; margin: 14px 0px 0px 0px !importan
     .quickLinksVisible {position: absolute !important; top: 0}
 }
 
-@media screen and (max-width: 480px) { .quickLinksVisible { display: block; position: fixed !important; top: 50px !important; height: 100%; overflow-y: scroll} }
+@media screen and (max-width: 480px) { .quickLinksVisible { display: block; position: fixed !important; top: 50px !important; height: 95%; overflow-y: scroll} }
 
 @media all and (min-width: 961px) {
     .brand-bar-container .brand-logo { max-height: 50px; height: 50px; max-width: 450px; }
