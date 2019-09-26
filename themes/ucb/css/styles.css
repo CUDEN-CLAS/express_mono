@@ -47,7 +47,7 @@ h2.univtitle-lg, h2.univtitle-sm {float:left; margin: 14px 0px 0px 0px !importan
 
 @media screen and (max-width: 960px) { .search-toggle-quicklinks-mobile { display: block; float:left; } }
 @media screen and (min-width: 768px) { .search-toggle-quicklinks-mobile { display: block; float:left; } 
-    .quickLinksVisible {position: absolute !important; top: 0}
+    .quickLinksVisible {position: -webkit-absolute !important; position: absolute !important; top: 50px !important}
 }
 
 @media screen and (max-width: 768px) { .quickLinksVisible { display: block; position: fixed !important; top: 50px !important; height: 95%; overflow-y: scroll} }
@@ -91,7 +91,7 @@ h2.univtitle-lg, h2.univtitle-sm {float:left; margin: 14px 0px 0px 0px !importan
 
 @media all and (max-width: 768px) {	#cuic {width:300px !important}}
 
-#quickLinks {padding: 15px 0; position: absolute; top:0px; left:0px; width: 100%; display: none; z-index: 199}
+#quickLinks {padding: 15px 0; position: absolute; top:50px; left:0px; width: 100%; display: none; z-index: 199; border-top: 1px solid #333}
 
 #quickLinks .row {margin-left: -15px; margin-right: -15px;}
 
@@ -113,7 +113,7 @@ h2.univtitle-lg, h2.univtitle-sm {float:left; margin: 14px 0px 0px 0px !importan
 
 .t-quickLinks {background-color: #222;}
 
-.quickLinksVisible {display: block !important; top: 0;}
+.quickLinksVisible {display: block !important; top: 50px; border-top: 1px solid #333}
 
 
 .quickLinksToggled {
