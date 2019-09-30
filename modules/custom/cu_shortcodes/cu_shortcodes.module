@@ -819,7 +819,7 @@ function cu_shortcodes_map($attrs, $content = NULL) {
   elseif (strpos($content, 'google.com/fusiontables') !== FALSE) {
     $map = '<iframe width="100%" class="' . $size . '" src="' . $content . '"></iframe>';
   }
-  elseif ((strpos($content, 'myatlascms.com') !== FALSE) || (strpos($content, 'colorado.edu/map') !== FALSE) || (strpos($content, 'cms.concept3d.com') !== FALSE)){
+  elseif ((strpos($content, 'myatlascms.com') !== FALSE) || (strpos($content, 'colorado.edu/map') !== FALSE) || (strpos($content, 'map.concept3d.com') !== FALSE)){
     // Parse url
     $url = parse_url($content);
     // Parse query parameter
@@ -847,8 +847,8 @@ function cu_shortcodes_map($attrs, $content = NULL) {
       }
     }
     if (isset($marker)) {
-      $static = 'https://staticmap.concept3d.com/map/static-map/?map=336&loc=' . $marker;
-      $map_link = 'https://myatlascms.com/map/?id=575#!m/' . $marker;
+      $static = 'https://staticmap.concept3d.com/map/static-map/?map=575&loc=' . $marker;
+      $map_link = 'https://map.concept3d.com/?id=575#!m/' . $marker;
 
       // Build static map markup
       $map = '<a href="' . $map_link . '" id="map-embed-' . $marker . '" class="embed-map-static embed-map-size-' . $embed_size . '" style="background-image:url(' . $static . ');"><span class="embed-map-label">View location on the Campus Map</span></a>';
