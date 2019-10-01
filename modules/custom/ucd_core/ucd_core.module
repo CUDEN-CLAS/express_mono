@@ -307,6 +307,10 @@ function ucd_core_site_affiliation_options($option = NULL) {
       'url' => 'https://business.ucdenver.edu',
       'label' => 'CU Denver Business School',
     ),
+    'school_geography' => array(
+      'url' => 'https://clas.ucdenver.edu/ges/',
+      'label' => 'Geograpy & Environmental Sciences',
+    ),
   );
 
   if ($option) {
