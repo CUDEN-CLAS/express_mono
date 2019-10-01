@@ -309,7 +309,7 @@ function ucd_core_site_affiliation_options($option = NULL) {
     ),
     'school_geography' => array(
       'url' => 'https://clas.ucdenver.edu/ges/',
-      'label' => 'Geograpy & Environmental Sciences',
+      'label' => 'Geography & Environmental Sciences',
     ),
   );
 
