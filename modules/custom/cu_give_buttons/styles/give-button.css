@@ -1,5 +1,6 @@
 @font-face {
 	font-family: 'culogo';
+	font-display: swap;
 	src:url('../fonts/culogo.eot');
 	src:url('../fonts/culogo.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/culogo.woff') format('woff'),
