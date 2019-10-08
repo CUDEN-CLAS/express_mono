@@ -55,7 +55,7 @@ function express_profile_configure_form() {
   $options = array(
     'ucd_core' => st('Production'),
     'cu_testing_core' => st('Testing'),
-    'cu_pantheon_core' => st('Pantheon'),
+    'pantheon_hosting' => st('Pantheon'),
   );
 
   $form['express_core_version'] = array(
