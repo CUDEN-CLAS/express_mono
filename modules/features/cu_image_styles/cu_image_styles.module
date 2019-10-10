@@ -165,7 +165,7 @@ function cu_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => 375,
+          'width' => 325,
           'height' => '',
           'upscale' => 1,
         ),
@@ -471,7 +471,7 @@ function cu_image_styles_image_styles_alter(&$styles) {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => 750,
+          'width' => 600,
           'height' => '',
           'upscale' => 1,
         ),

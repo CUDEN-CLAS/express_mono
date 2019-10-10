@@ -58,3 +58,16 @@ function cu_image_styles_update_7004() {
     image_style_flush($style);
   }
 }
+
+/*
+ * Update medium, small image styles for new site width.
+ */
+function cu_image_styles_update_7005() {
+  $styles = array(
+    'medium',
+    'small',
+  );
+  foreach ($styles as $style) {
+    image_style_flush($style);
+  }
+}
