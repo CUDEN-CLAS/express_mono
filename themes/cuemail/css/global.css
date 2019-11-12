@@ -29,9 +29,10 @@ body { padding: 0 0 40px; }
 /* Newsletter Title & Logo */
 table.full { width: 100%; }
 
-td.newsletter-logo-single { padding: 20px 10px 10px; vertical-align: middle; }
+td.campus-logo { padding: 10px; }
+td.campus-logo img#campus-logo { width: 180px !important; height: auto !important; }
 
-td.newsletter-logo-single img { max-width: 240px !important; }
+img#newsletter-logo { max-width: 100% !important; }
 
 td.newsletter-name { width: 80%; padding: 20px 60px 20px 10px; vertical-align: middle; }
 
