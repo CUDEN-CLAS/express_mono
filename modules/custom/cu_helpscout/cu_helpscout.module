@@ -80,6 +80,9 @@ function cu_helpscout_preprocess_page(&$vars) {
       \'display\': {
         \'style\': \'manual\',
         \'iconImage\': \'message\'
+      },
+      \'messaging\': {
+        \'chatEnabled\': false
       }
     });
     jQuery("#navbar-bar a.navbar-icon-help").click(function(event) { event.preventDefault(); Beacon(\'open\'); });';
