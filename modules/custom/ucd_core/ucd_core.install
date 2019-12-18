@@ -1321,3 +1321,10 @@ function ucd_core_update_7058() {
   module_disable(array('express_help'));
   drupal_uninstall_modules(array('express_help'));
 }
+
+/**
+ * Enable Help Scout module.
+ */
+function ucd_core_update_7059() {
+  module_enable(array('cu_helpscout'));
+}
