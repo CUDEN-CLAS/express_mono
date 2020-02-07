@@ -1328,3 +1328,10 @@ function ucd_core_update_7058() {
 function ucd_core_update_7059() {
   module_enable(array('cu_helpscout'));
 }
+
+/**
+ * Enabling Add Another module.
+ */
+function ucd_core_update_7060() {
+  module_enable(array('addanother'));
+}
