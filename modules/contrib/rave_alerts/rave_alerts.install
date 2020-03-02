@@ -10,10 +10,10 @@
 function rave_alerts_install() {
   // set sane defaults
   variable_set('rave_alerts_rss_url', 'https://clas.ucdenver.edu/alerts/cuden');
-  variable_set('rave_alerts_deafult_read_more_url', 'https://www1.ucdenver.edu/police/alerts');
-  variable_set('rave_alerts_check_enable', 0);
+  variable_set('rave_alerts_deafult_read_more_url', 'https://www.ahec.edu/');
+  variable_set('rave_alerts_check_enable', 1);
   variable_set('rave_alerts_display', 0);
-  variable_set('rave_alerts_network_fail_message', 'Network Failure: Please go directly to https://www1.ucdenver.edu/police/alerts for more information.');
+  variable_set('rave_alerts_network_fail_message', 'Network Failure: Alerts are currently down.');
 }
 
 /**
