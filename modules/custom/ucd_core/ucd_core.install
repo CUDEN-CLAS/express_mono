@@ -1349,3 +1349,11 @@ function ucd_core_update_7061() {
   variable_set('rave_alerts_display', 0);
   variable_set('rave_alerts_network_fail_message', 'Network Failure: Alerts are currently down.');
 }
+
+/**
+ * Rebuild secure permissions
+ */
+
+function ucd_core_update_7062() {
+  secure_permissions_rebuild();
+}
