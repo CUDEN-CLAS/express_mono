@@ -1351,6 +1351,7 @@ function ucd_core_update_7061() {
 }
 
 /**
+<<<<<<< HEAD
  * Rebuild permissions.
  */
 function ucd_core_update_7062() {
@@ -1361,5 +1362,11 @@ function ucd_core_update_7062() {
  * Rebuild permissions.
  */
 function ucd_core_update_7063() {
+=======
+ * Rebuild secure permissions
+ */
+
+function ucd_core_update_7062() {
+>>>>>>> clasfeature/6
   secure_permissions_rebuild();
 }
