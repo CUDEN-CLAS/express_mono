@@ -347,18 +347,18 @@
       <div class="t-footer" role="contentinfo">
         <div class="footerContainer">
           <ul aria-label="footer navigation">
-            <li role="listitem"><a href="http://www.ucdenver.edu/about-us/contact/Pages/default.aspx">Contact Us</a></li>
-            <li role="listitem"><a href="http://www.ucdenver.edu/websitefeedback/Pages/form.aspx">Website Feedback</a></li>
+            <li role="listitem"><a href="https://www.ucdenver.edu/about-us/contact/Pages/default.aspx">Contact Us</a></li>
+            <li role="listitem"><a href="https://www.ucdenver.edu/websitefeedback/Pages/form.aspx">Website Feedback</a></li>
             <li role="listitem"><a href="https://www.cu.edu/">CU System</a></li>
-            <li role="listitem"><a href="http://www.ucdenver.edu/policy/Pages/PrivacyPolicy.aspx">Privacy Policy</a></li>
-            <li role="listitem"><a href="http://www.ucdenver.edu/policy/Pages/LegalNotices.aspx">Legal Notices</a></li>
+            <li role="listitem"><a href="https://www.ucdenver.edu/policy/Pages/PrivacyPolicy.aspx">Privacy Policy</a></li>
+            <li role="listitem"><a href="https://www.ucdenver.edu/policy/Pages/LegalNotices.aspx">Legal Notices</a></li>
             <li role="listitem"><a href="https://www.hlcommission.org/component/directory/?Action=ShowBasic&amp;Itemid=&amp;instid=1040">Accreditation</a></li>
-            <li role="listitem"><a href="http://www.ucdenver.edu/about/departments/HR/jobsoncampus/Pages/index.aspx">Employment</a></li>
+            <li role="listitem"><a href="https://www.ucdenver.edu/about/departments/HR/jobsoncampus/Pages/index.aspx">Employment</a></li>
             <li role="listitem"><a href="https://giving.cu.edu/fund-search?field_campuses=1100"> Give Now</a></li>
           </ul>
         <div class="u-foottextwrap">
           <hr>
-          <p>© 2017&nbsp;<a href="http://www.cu.edu/regents/"><strong> The Regents of the University of Colorado</strong></a>, a body corporate. All rights reserved.</p>
+          <p>© 2017&nbsp;<a href="https://www.cu.edu/regents/"><strong> The Regents of the University of Colorado</strong></a>, a body corporate. All rights reserved.</p>
           <p>Accredited by the <a href="https://www.hlcommission.org/component/directory/?Action=ShowBasic&amp;Itemid=&amp;instid=1040"> <strong> Higher Learning Commission</strong></a>. All trademarks are registered property of the University. Used by permission only.</p>
         </div>
        </div>
