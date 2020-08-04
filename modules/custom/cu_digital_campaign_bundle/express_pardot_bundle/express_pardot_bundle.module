@@ -72,7 +72,7 @@ function express_pardot_bundle_form_options(&$form, &$form_state, $id = NULL, $d
  */
 function _pardot_domain_options() {
   return array(
-    'https://info.ucdenver.edu' => 'https://info.ucdenver.edu'
+    'https://contact.ucdenver.edu' => 'https://contact.ucdenver.edu'
   );
 }
 
