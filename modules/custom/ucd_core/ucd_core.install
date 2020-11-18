@@ -1363,3 +1363,16 @@ function ucd_core_update_7062() {
 function ucd_core_update_7063() {
   secure_permissions_rebuild();
 }
+
+/**
+ * Disable old tracking pixel modules.
+ */
+function ucd_core_update_7064() {
+  $modules = array(
+    'cu_seo_admin_bundle',
+    'cu_tracking_pixel',
+    'cu_tracking_pixel_overview',
+  );
+  module_disable($modules);
+  drupal_uninstall_modules($modules);
+}
