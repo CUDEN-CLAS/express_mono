@@ -397,3 +397,10 @@ function cu_users_update_7032() {
   }
   watchdog('cu_users', t('Removed owmo7772 from list of users on sites'));
 }
+
+/**
+ * Enabling Masquerade module.
+ */
+function cu_users_update_7033() {
+  module_enable(array('masquerade'));
+}
