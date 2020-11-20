@@ -1363,3 +1363,20 @@ function ucd_core_update_7062() {
 function ucd_core_update_7063() {
   secure_permissions_rebuild();
 }
+
+/**
+ * Ensure responsive setting is set as expected now that the option for users to alter this setting has been removed.
+ */
+function ucd_core_update_7064() {
+  $themes = list_themes();
+  $hidden_themes = variable_get('express_theme_picker_theme_ignore', array());
+
+  foreach ($themes as $theme) {
+    if (empty($hidden_themes[$theme->name])) {
+      $theme_settings = variable_get('theme_' . $theme->name . '_settings', array());
+      // Alpha responsive is set as a string in the theme's .info file. Set it as a string here, too.
+      $theme_settings['alpha-responsive'] = '1';
+      variable_set('theme_' . $theme->name . '_settings', $theme_settings);
+    }
+  }
+}
