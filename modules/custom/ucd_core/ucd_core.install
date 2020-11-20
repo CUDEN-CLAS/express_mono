@@ -1367,7 +1367,7 @@ function ucd_core_update_7063() {
 /**
  * Ensure responsive setting is set as expected now that the option for users to alter this setting has been removed.
  */
-function ucd_core_update_7064() {
+function ucd_core_update_7065() {
   $themes = list_themes();
   $hidden_themes = variable_get('express_theme_picker_theme_ignore', array());
 
