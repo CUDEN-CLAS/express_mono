@@ -34,7 +34,7 @@ td.campus-logo img#campus-logo { width: 180px !important; height: auto !importan
 
 img#newsletter-logo { max-width: 100% !important; }
 
-td.newsletter-name { width: 80%; padding: 20px 60px 20px 10px; vertical-align: middle; }
+td.newsletter-name { width: 100%; padding: 20px 60px 20px 10px; vertical-align: middle; }
 
 td.newsletter-logo { width: 20%; padding: 20px 10px 20px; vertical-align: middle; font-size: 12px; text-align: right; }
 
@@ -49,7 +49,7 @@ td.issue-date { width: 50%; padding: 10px; font-size: 20px}
 
 td.web-link { width: 50%; padding: 10px; text-align: right; }
 
-td.web-link a { font-size: 11px; }
+td.web-link a { font-size: 11px; color: #007bc8 !important; }
 
 .title td h1 { font-size: 20px; font-weight: 100; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none; margin: 0; }
 

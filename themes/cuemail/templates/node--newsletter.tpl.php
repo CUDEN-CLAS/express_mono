@@ -37,9 +37,6 @@
                                 <h1><?php print $newsletter_name; ?></h1>
                             </td>
                           <?php endif; ?>
-                          <td class="newsletter-logo">
-                            <?php print l('View on Website', 'node/' . $node->nid, array('attributes' => array('class' => array('websitelink')), 'absolute' => TRUE)); ?>
-                          </td>
                         </tr>
                       </table>
                       <table class="issue full" role="presentation">
@@ -50,7 +47,8 @@
       										</td>
       										<td class="web-link">
 
-                                       <strong><?php print $ap_date_cu_medium_date; ?></strong>
+                                       <strong><?php print $ap_date_cu_medium_date; ?></strong><br/>
+                                       <?php print l('View on Website', 'node/' . $node->nid, array('attributes' => array('class' => array('websitelink')), 'absolute' => TRUE)); ?>
 
       										</td>
       									</tr>
