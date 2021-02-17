@@ -84,7 +84,7 @@ project_demo_url = https://websupport.colorado.edu/category/254-events
 bundle_request = 1
 bundle_group = 'request_bundles'
 
-;bundle_roles[] = developer
+bundle_roles[] = developer
 ;bundle_roles[] = administrator
 ;bundle_roles[] = site_owner
 ;bundle_roles[] = configuration_manager
