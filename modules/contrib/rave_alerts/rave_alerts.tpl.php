@@ -8,6 +8,7 @@
 <div id="rave-alerts" data-remote-url="<?php print $remote_url ?>">
   <?php if (variable_get('rave_alerts_enable', 1) && variable_get('rave_alerts_display', 1)): ?>
     <div class="alert">
+      <h2><?php print $data['channel']['item']['title']; ?></h2>
       <?php print $data['channel']['item']['description']; ?>
       <?php if (!empty($data['channel']['item']['link'])) : ?>
         <?php print l('Read More &raquo;', $data['channel']['item']['link'], array('html' => TRUE)); ?>
