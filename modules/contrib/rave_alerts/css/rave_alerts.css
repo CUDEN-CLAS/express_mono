@@ -1,14 +1,22 @@
 #rave-alerts .alert {
-	background: #990000;
-	background: #e51c23;
+	background: #a20000;
 	padding: 15px 13%;
 	color: #fff;
 	margin: 0;
+	font-family: "Neue Helvetica W05", "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 140%;
+	font-size: 21px;
+	line-height: 1.1;
 	text-align: left;
-	font-weight: 600;
+	font-weight: 200;
+}
+
+#rave-alerts .alert h2 {
+   font-family: "Neue Helvetica W05", "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 1.1;
+	font-weight: 750;
 }
 
 #rave-alerts a:link,
