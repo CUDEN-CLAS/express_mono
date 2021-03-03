@@ -14,7 +14,7 @@
   .expandable-tabs-vertical .expandable-panel-group .expandable-panel { width: 100%; }
   .expandable-tabs-vertical .expandable-panel-group .expandable-panel a:link:not(.button), .expandable-tabs-vertical .expandable-panel-group .expandable-panel a:visited:not(.button) { color: #0277BD !important; } }
 
-.expandable .expandable-accordion-heading { font-size: 110%; border-bottom: 1px solid rgba(128, 128, 128, 0.333); margin-bottom: -1px; }
+.expandable .expandable-accordion-heading { font-size: 130%; border-bottom: 1px solid rgba(128, 128, 128, 0.333); margin-bottom: -1px; }
 .expandable .expandable-accordion-heading a:link, .expandable .expandable-accordion-heading a:visited { font-weight: normal; padding: 10px 0; display: block; text-decoration: none !important; }
 .expandable .expandable-accordion-heading a:before { content: '\f0fe'; font-family: FontAwesome; margin-right: 10px; opacity: .75; }
 .expandable .expandable-accordion-heading a.is-active:before { content: '\f146'; }
@@ -32,7 +32,7 @@
 .expandable-tabs ul.expandable-tablist { position: relative; display: flex; flex-direction: row; justify-content: space-between; border-bottom: 1px solid rgba(128, 128, 128, 0.75); }
 .expandable-tabs ul.expandable-tablist:after { z-index: 0; content: ' '; width: 100%; position: absolute; bottom: 0; left: 0; }
 .expandable-tabs ul.expandable-tablist li { display: flex; flex-grow: 1; text-align: center; align-self: flex-end; }
-.expandable-tabs ul.expandable-tablist a { display: block; padding: 5px 10px; font-weight: bold; position: relative; z-index: 1; margin: 0 auto; line-height: 1.2; text-decoration: none !important; opacity: .75; }
+.expandable-tabs ul.expandable-tablist a { display: block; padding: 5px 10px; font-weight: bold; font-size: 140%; position: relative; z-index: 1; margin: 0 auto; line-height: 1.2; text-decoration: none !important; opacity: .75; }
 .expandable-tabs ul.expandable-tablist li.is-active a { opacity: 1; position: relative; }
 .expandable-tabs ul.expandable-tablist li.is-active a:after { content: ""; width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 6px solid rgba(128, 128, 128, 0.75); bottom: -6px; left: 0; right: 0; margin: 0 auto; position: absolute; }
 
