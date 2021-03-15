@@ -11,9 +11,9 @@
       <h2><?php print $data['channel']['item']['title']; ?></h2>
       <?php print $data['channel']['item']['description']; ?>
       <?php if (!empty($data['channel']['item']['link'])) : ?>
-        <?php print l('Read More &raquo;', $data['channel']['item']['link'], array('html' => TRUE)); ?>
+        <?php print l('Learn More &raquo;', $data['channel']['item']['link'], array('html' => TRUE)); ?>
       <?php elseif ($rave_alerts_site = variable_get('rave_alerts_deafult_read_more_url', NULL)): ?>
-        <?php print l('Read More &raquo;', $rave_alerts_site, array('html' => TRUE)); ?>
+        <?php print l('Learn More &raquo;', $rave_alerts_site, array('html' => TRUE)); ?>
       <?php endif; ?>
     </div>
   <?php endif; ?>
