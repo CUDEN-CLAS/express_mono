@@ -19,8 +19,8 @@
 	font-weight: 750;
 }
 
-#rave-alerts a:link,
-#rave-alerts a:visited {
+#rave-alerts a:link:not(.internal),
+#rave-alerts a:visited:not(.internal) {
 	color: #111;
 	background: #fff;
   font-size: 14px;
@@ -30,4 +30,19 @@
 	padding: 4px 8px;
 	margin:0 10px;
 	white-space: nowrap;
+}
+
+a.internal:link {
+   color: #fff;
+   text-decoration: underline
+}
+
+a.internal:visited {
+	color: #fff;
+	text-decoration: underline;
+}
+
+a.internal:hover {
+	color: #fff;
+	text-decoration: none;
 }
