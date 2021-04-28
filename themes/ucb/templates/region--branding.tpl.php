@@ -32,7 +32,7 @@
                  <li><a href="https://www.ucdenver.edu/">CU Denver</a></li>
                  <li><a href="https://www.cuanschutz.edu">CU Anschutz Medical Campus</a></li>
                  <li><a href="https://southdenver.cu.edu">CU South Denver</a></li>
-                 <li><a href="https://www1.ucdenver.edu/online">CU Online</a></li>
+                 <li><a href="https://online.cu.edu/">CU Online</a></li>
                </ul>
                </div>
                <div class="col-md-3" style="float:left">
@@ -58,7 +58,7 @@
                      <li><a href="https://artsandmedia.ucdenver.edu">College of Arts and Media</a></li>
                      <li><a href="https://business.ucdenver.edu">Business School</a></li>
                      <li><a href="https://education.ucdenver.edu">School of Education and Human Development</a></li>
-                     <li><a href="https://engineering.ucdenver.edu">College of Engineering and Applied Science</a></li>
+                     <li><a href="https://engineering.ucdenver.edu">College of Engineering, Design and Computing</a></li>
                      <li><a href="https://www.ucdenver.edu/academics/colleges/Graduate-School/">Graduate School</a></li>
                      <li><a href="https://clas.ucdenver.edu">College of Liberal Arts and Sciences</a></li>
                      <li><a href="https://publicaffairs.ucdenver.edu">School of Public Affairs</a></li>
