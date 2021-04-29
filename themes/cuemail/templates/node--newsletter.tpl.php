@@ -52,6 +52,12 @@
 
       										</td>
       									</tr>
+      									<tr>
+      										<td colspan="2" class="web-link" style="text-align:left; color:#cccccc">
+      											CU Denver is on the traditional territories and ancestral homelands of the Cheyenne, Arapaho, and Ute nations. Let us acknowledge the painful history of genocide and forced removal from this territory and pay our respects to the diverse Indigenous peoples still connected to this land. Let us also give thanks to all Tribal Nations and the ancestors of this place.
+      										</td>
+      										
+      									</tr>
       								</table>
                     </td>
                   </tr>
