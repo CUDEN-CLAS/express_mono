@@ -7,6 +7,10 @@ body { font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif; font-size: 1
 
 .site-name { display: none; }
 
+#quickLinks { display: none; }
+
+#cuicContainer, .footerContainer ul, .univtitle-sm { display: none}
+
 #print-site-name { font-size: 18pt; padding-bottom: .5em; margin-bottom: .5em; border-bottom: 1px solid #757575; }
 
 .print-breadcrumb { text-align: right; font-size: 10pt; display: none; }
