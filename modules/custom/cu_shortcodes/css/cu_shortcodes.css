@@ -121,7 +121,7 @@ a.small-expand-title:focus, a.tooltip-expand-title:focus, a.expand-title:focus {
 
 .image-caption { font-size: 80%; line-height: 120%; display: block; margin-bottom: 20px; }
 
-@media screen and (min-width: 540px) { .image-caption-right { float: right; margin-left: 20px; max-width: 50%; width: 240px; }
+@media screen and (min-width: 540px) { .image-caption-right { float: right; margin-left: 20px; max-width: 50%; }
   .image-caption-right img { display: block; float: none; width: 100%; height: auto; max-width: 100%; margin-bottom: 0px; }
   .image-caption-left { float: left; margin-right: 20px; max-width: 50%; width: 240px; }
   .image-caption-left img { display: block; float: none; width: 100%; height: auto; max-width: 100%; margin-bottom: 0px; } }
