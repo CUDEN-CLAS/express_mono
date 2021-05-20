@@ -13,14 +13,14 @@ body, table.body { background-color: #FFFFFF; }
 
 .issue { background-color: #ffffff; }
 
-td.issue-date { color: #cfb87c; }
+td.issue-date { color: #000000; }
 
 td.newsletter-logo a { color: #757575; }
 td.newsletter-logo a:link, td.newsletter-logo a:visited, td.newsletter-logo a:active { color: #757575 !important; }
 
 td.newsletter-logo a:hover { color: #000000 !important; }
 
-td.web-link { color: #757575; }
+td.web-link { color: #000000; }
 
 .title td h1 { color: #000000; }
 
