@@ -27,6 +27,7 @@
 .localist-events .localist_minicalendar .localist_minicalendar_minicalendar .localist_minicalendar_today { background: #0277BD; border-bottom: inherit; }
 .localist-events .localist_minicalendar .localist_minicalendar_minicalendar .localist_minicalendar_today a:link, .localist-events .localist_minicalendar .localist_minicalendar_minicalendar .localist_minicalendar_today a:visited { color: #fff !important; }
 .localist-events .localist-widget-hl .event-card:hover { border-color: inherit; }
+.localist-events .localist-widget-hl .event-card .event-detail-title, .event-date, .event-location { color: #FFF !important; }
 .localist-events .localist-widget-hl .event-details { background: rgba(0, 0, 0, 0.65); }
 .localist-events .localist-widget-hl .event-card .content p { font-family: inherit; }
 .localist-events .localist-widget-hl .event-card .event-short-date { background: #0277BD; }
