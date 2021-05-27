@@ -249,6 +249,40 @@ function express_localist_bundle_field_default_field_instances() {
       'weight' => 44,
     ),
   );
+  
+  // Exported field_instance: 'bean-localist_events-field_localist_departments'.
+  $field_instances['bean-localist_events-field_localist_departments'] = array(
+    'bundle' => 'localist_events',
+    'default_value' => NULL,
+    'default_value_function' => '',
+    'default_value_php' => FALSE,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 26,
+      ),
+    ),
+    'entity_type' => 'bean',
+    'fences_wrapper' => 'no_wrapper',
+    'field_name' => 'field_localist_departments',
+    'label' => 'Departments',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_buttons',
+      'weight' => 44,
+    ),
+  );
 
   // Exported field_instance:
   // 'bean-localist_events-field_localist_hide_descriptions'.

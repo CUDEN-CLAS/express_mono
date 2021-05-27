@@ -236,14 +236,14 @@ function express_localist_bundle_field_group_info() {
   $field_group->mode = 'form';
   $field_group->parent_name = 'group_localist_filters';
   $field_group->data = array(
-    'label' => 'Filter by Group',
+    'label' => 'Filter by Department',
     'weight' => '43',
     'children' => array(
-      0 => 'field_localist_groups',
+      0 => 'field_localist_departments',
     ),
     'format_type' => 'fieldset',
     'format_settings' => array(
-      'label' => 'Filter by Group',
+      'label' => 'Filter by Department',
       'instance_settings' => array(
         'required_fields' => 1,
         'id' => '',
@@ -381,7 +381,7 @@ function express_localist_bundle_field_group_info() {
   t('Display');
   t('Exclude by Group');
   t('Excluded Content');
-  t('Filter by Group');
+  t('Filter by Department');
   t('Filter by Keywords and Tags');
   t('Filter by Place');
   t('Filtering Options');
