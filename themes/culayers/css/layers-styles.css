@@ -2,6 +2,8 @@ body { background-color: #000; }
 
 .layout-wide #backstretch { display: none; }
 
+.form-required { color: #AD0000 !important }
+
 .layout-boxed { background-color: #111; }
 .layout-boxed .page-wrapper { width: 1200px; margin: 0 auto; -webkit-box-shadow: 0 0 80px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 80px rgba(0, 0, 0, 0.5); box-shadow: 0 0 80px rgba(0, 0, 0, 0.5); }
 

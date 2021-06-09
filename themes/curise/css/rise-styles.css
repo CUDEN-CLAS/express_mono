@@ -4,6 +4,8 @@ body { background-color: #000; }
 
 #backstretch { display: none; }
 
+.form-required { color: #AD0000 !important }
+
 #page { position: relative; }
 
 #navigation-wrapper { z-index: 5; }
