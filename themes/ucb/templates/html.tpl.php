@@ -33,6 +33,9 @@
   <?php endif; ?>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
+<?php if (isset($_SERVER['WWWNG_ENV'])): ?>
+      <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCBXJSR" height="0" width="0" style="display:none;visibility:hidden" title="CLAS Google Tag Manager">CLAS Google Tag Manager</iframe></noscript>
+  <?php endif; ?>
   <?php if ($skip_link_text && $skip_link_anchor): ?>
     <p id="skip-link">
       <a href="#<?php print $skip_link_anchor; ?>" class="element-invisible element-focusable"><?php print $skip_link_text; ?></a>
